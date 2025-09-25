@@ -4,7 +4,7 @@ function Keypad({usedKeys}) {
     const [letters, getLetters] = useState(null);
 
     useEffect(() => {
-        fetch('/letters.json')
+        fetch(`${import.meta.env.BASE_URL}/letters.json`)
         .then(res => res.json())
         .then(json => {
             getLetters(json);

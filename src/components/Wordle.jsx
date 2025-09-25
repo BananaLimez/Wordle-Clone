@@ -29,6 +29,7 @@ function Wordle({ solution, onGameEnd }) {
                 </div>
             )}
             <Keypad usedKeys={usedKeys} />
+            
         </div>
     )
 }

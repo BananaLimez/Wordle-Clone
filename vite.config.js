@@ -7,5 +7,6 @@ export default defineConfig({
     react(),
     tailwindcss(), // <--- ADD THIS
   ],
-   base: '/Wordle-Clone/',
+   base: '/Wordle-Clone/'
+   // remember do this in json file ${import.meta.env.BASE_URL}/letters.json
 })
